@@ -1,17 +1,19 @@
 # Data Processing in Python (JEM207)
 
 The course site for the Data Processing in Python from [IES](http://ies.fsv.cuni.cz/). See information on [SIS](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=JEM207). The course is taught by [Martin Hronec](mailto:martin.hronec@fsv.cuni.cz), [Jan Šíla](mailto:jan.sila@fsv.cuni.cz) and 
-[Alena Pavlovova](mailto:alena.pavlova@fsv.cuni.cz).
+[Alena Pavlova](mailto:alena.pavlova@fsv.cuni.cz).
 
 ## Communication
 Please direct all questions at [Alena Pavlova](mailto:alena.pavlova@fsv.cuni.cz) only. 
+## Final project
+* [Submit you proposal here](https://forms.gle/w7Ct7nCr5P5JM3Uz8)
+* See full instructions below schedule 
 
-# Midterm - Nov 21
-
-* Here is [preview of instructions](https://drive.google.com/file/d/1wop6xnUKEdxsY9BswXwYwXABmeA1RHc6/view?usp=sharing). Please note that no further hints or sample questions will be provided. This line will be updated at the start of the exam. 
-* You are expected to be present in the lecture room during the exam.
-* Read the instructions carefully.
 <!--
+### Midterm - Nov 21
+* Make sure you **committed** your code. Upload link to your solution [to the form here.](https://forms.gle/YngeLSeq8XM48P5z7)
+* You will find marks in SIS under your name, hopefully within a week. 
+
 ## FAQ - pre semester
 
 * If you are on **waiting list** there is *nothing* we can do to enroll you. We managed to master somehow `python`, but SIS is something else. We follow the rules. Students usully drop from the course during the first week of the semester so **there is a good chance** you will be able to register.
@@ -43,11 +45,11 @@ Please direct all questions at [Alena Pavlova](mailto:alena.pavlova@fsv.cuni.cz)
 | 7    | 14.11. | L   | Algorithmic problem solving                | Jan                 |                  |
 | 8    | 21.11. | -   | MIDTERM                                    | Alena, Jan & Martin |                  |
 | 9    | 27.11. | S   | MIDTERM solution                           | Alena               |                  |
-| 9    | 28.11. | L   | Data science                               | Martin              | Project proposal |
-| 10   | 5.12.  | L   | How to code (avoiding spaghetti code)      | Martin              | Topic approved   |
+| 9    | 28.11. | L   | Data science                               | Martin              |                  |
+| 10   | 5.12.  | L   | How to code (avoiding spaghetti code)      | Martin              | Project proposal |
 | 11   | 11.12. | S   | Seminar 5: Data science case-study         | Alena               |                  |
-| 11   | 12.12. | L   | Databases                                  | Jan                 |                  |
-| 12   | 19.12. | L   | Guest lecture (TBA) + Python Beer          | Alena, Jan & Martin |                  |
+| 11   | 12.12. | L   | Databases                                  | Jan                 | Topic approved   |
+| 12   | 19.12. | L   | Python profiling + Beer after lecture @ [Pivo klub](https://pivo-klub.cz/)        | [Miloš Kozák](https://www.linkedin.com/in/milo%C5%A1-koz%C3%A1k-1b837927/) |                  |
 | 2.1. | -      | -   | WiP: Project consultations                 | Alena, Jan & Martin |                  |
 | 9.1. | -      | -   | WiP: Project consultations                 | Alena, Jan & Martin |                  |
 
@@ -58,29 +60,31 @@ At least 50% from the homeworks assignments and work-in-progress presentation is
 
 ## Final project (60%)
 * Students in teams by 2
+* [Submit you proposal here](https://forms.gle/w7Ct7nCr5P5JM3Uz8)
 * Deadline for topic approval: 5th of December 2023
 * Deadline: 9th of February 2024
 
-### Projects' Evaluation critera
+### Projects' Evaluation criteria
 * Use of git by both - 5pts
     * meaningful commit messages
 * pythonic code principles - 5 pts
+    * Provide requirements.txt file of the dependencies with versions (can use pip freeze) so that we can install with `pip install -r requirements.txt`    
     * code is more often read than written, EAFP
-* runability - 15 pts
-    * by far the most important one! Project needs to run from scratch after installing versioned requirements.
+* Runnable code - 15 pts
+    * by far the most important one! The project needs to run from scratch after installing versioned requirements.
         * provide requirements.txt file with specific versions of packages (use pip freeze to get it), and specify your precise Python version. 
 * code structure - 15 pts
     * functions (classes), properly named variables
 * README, documentation - 5 pts
 * analysis, visualization - 15 pts
-    * highlight key poins of your projet
+    * highlight key points of your project, give it some narrative
 
 ## Project work - presentation (10%)
 * Presentation of work-in-progress related to the final project.
 * Prepare questions, understand the goals of your project
 
 ## Midterm exam (25%)
-Live coding (80 minutes), "open browser", no collaboration between the students. More details during the lecture week before
+Live coding (80 minutes), "open browser", no collaboration between the students. More details during the lecture the week before
 
 ## Homework Assignments (5%)
 
